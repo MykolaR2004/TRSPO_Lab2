@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="469.0" prefWidth="445.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trspo_lab1.HelloController">
+        <AnchorPane prefHeight="485.0" prefWidth="374.0" BorderPane.alignment="CENTER">
+            <Label layoutX="11.0" layoutY="14.0" prefHeight="20.0" prefWidth="310.0" text="Кількість інтервалів розбиття відрізку інтегрування (n)" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="14.0" />
+            <TextField fx:id="nField" layoutX="11.0" layoutY="34.0" prefHeight="25.0" prefWidth="423.0" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="34.0" />
+
+            <Label layoutX="11.0" layoutY="59.0" prefHeight="20.0" prefWidth="310.0" text="Кількість потоків виконання. (thread)" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="59.0" />
+            <TextField fx:id="threadField" layoutX="11.0" layoutY="79.0" prefHeight="25.0" prefWidth="423.0" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="79.0" />
+
+            <Button layoutX="11.0" layoutY="110.0" mnemonicParsing="false" onAction="#calc" prefHeight="25.0" prefWidth="145.0" text="Обчислити" AnchorPane.leftAnchor="11.0" />
+
+            <Button layoutX="11.0" layoutY="143.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="145.0" text="Очистити" AnchorPane.leftAnchor="11.0" />
+            <TextArea fx:id="tabArea" layoutX="11.0" layoutY="179.0" prefHeight="277.0" prefWidth="423.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="179.0" />
+
+        </AnchorPane>
+</VBox>
