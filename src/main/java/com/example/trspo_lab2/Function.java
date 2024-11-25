@@ -1,4 +1,4 @@
-package com.example.trspo_lab1;
+package com.example.trspo_lab2;
 
 public class Function {
 

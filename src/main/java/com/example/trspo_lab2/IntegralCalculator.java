@@ -1,4 +1,4 @@
-package com.example.trspo_lab1;
+package com.example.trspo_lab2;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;

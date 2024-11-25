@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="469.0" prefWidth="445.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trspo_lab1.HelloController">
+<VBox alignment="CENTER" prefHeight="469.0" prefWidth="445.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trspo_lab2.HelloController">
         <AnchorPane prefHeight="485.0" prefWidth="374.0" BorderPane.alignment="CENTER">
             <Label layoutX="11.0" layoutY="14.0" prefHeight="20.0" prefWidth="310.0" text="Кількість інтервалів розбиття відрізку інтегрування (n)" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="14.0" />
             <TextField fx:id="nField" layoutX="11.0" layoutY="34.0" prefHeight="25.0" prefWidth="423.0" AnchorPane.leftAnchor="11.0" AnchorPane.topAnchor="34.0" />

@@ -1,4 +1,4 @@
-package com.example.trspo_lab1;
+package com.example.trspo_lab2;
 
 public class R1 implements Runnable {
     private final double a;
